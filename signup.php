@@ -12,6 +12,9 @@
     <form>
         <label>Name:</label>
         <input type="text" for="name" id="name">
+        <br>
+        <label>Favorite Movie:</label>
+        <input type="text" for="fmovie" id="fmovie">
     </form>
 
 
