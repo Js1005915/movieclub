@@ -9,5 +9,11 @@
 <body class="p-3">
     <?php require __DIR__ . '/includes/navigation.php'; ?>
     
+    <form>
+        <label>Name:</label>
+        <input type="text" for="name" id="name">
+    </form>
+
+
 </body>
 </html>

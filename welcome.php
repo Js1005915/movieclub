@@ -13,7 +13,9 @@
     <?php require __DIR__ . '/includes/navigation.php'; ?>
 
     <?php if($_GET['member'] === 'false'):  ?>
-        <? chdir('signup.php'); ?>
+        <?php 
+            header('Location: signup.php')
+            ?>
     
     <?php else: ?>
         <h1>Welcome, Movie Club member!</h1>
